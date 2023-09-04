@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #2b3035;
+  color:aliceblue;
+  height: 100vh;
+}
+
+@layer components{
+  .gradient{
+    background-image: linear-gradient(45deg, rgb(91, 42, 213) 0%, rgb(120, 32, 207) 100%);
+  }
+}
+.active-page{@apply text-zinc-950 underline underline-offset-4}
+
+.form__input{@apply bg-[rgba(4,4,4,0.58)] border outline-none border-gray-600 py-1.5 px-3 rounded-[4px] focus:outline-none focus:border-violet-600
+  disabled:cursor-not-allowed disabled:bg-[rgba(4,4,4,0.8)] disabled:border-violet-400
+}
