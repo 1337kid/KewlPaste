@@ -1,3 +1,5 @@
+import { Dispatch, SetStateAction } from "react"
+
 export interface ButtonProps {
   text:string
   onClick?: () => void
@@ -9,4 +11,10 @@ export interface FormProps {
   paste:object
   setPaste: Function
   handleSubmit: () => void
+}
+
+export interface AlertBoxProps {
+  type:string
+  handleClick: Dispatch<SetStateAction<string>>
+  alertText:string | null
 }

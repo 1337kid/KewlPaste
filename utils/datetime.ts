@@ -17,5 +17,5 @@ export const DateTime = (pasteID:string) => {
   splidate.forEach(change)
   const month:any = date.shift()
   date.splice(1,0,month)
-  return {date:date.reverse().join('-').toString(),time:time}
+  return {date:date.reverse().join('-'),time:time}
 }
