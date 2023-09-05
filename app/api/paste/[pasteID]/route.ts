@@ -10,7 +10,7 @@ export const GET = async(req:Request,{params}:any) => {
   try {
     await connectToDB()
     const paste = await Paste.findById(params.pasteID)
-    if (!paste) return new Response(JSON.stringify({message:'Paste Not found'}),{status:404})
+    if (!paste) return new Response(JSON.stringify({error:'Paste Not found'}),{status:404})
     return new Response(JSON.stringify(paste),{status:200})
   } catch (err) {
     return new Response(JSON.stringify({error:'Error'}),{status:500})
