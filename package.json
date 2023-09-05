@@ -1,6 +1,6 @@
 {
   "name": "kewlpaste",
-  "version": "1.2",
+  "version": "1.2.1",
   "private": true,
   "scripts": {
     "dev": "next dev",

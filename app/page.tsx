@@ -32,7 +32,7 @@ const Home = () => {
     <div>
       {error && (
         <div>
-          <AlertBox type="danger" handleClick={setError} alertText="error" />
+          <AlertBox type="danger" handleClick={setError} alertText={error} />
         </div>
       )}
       <h4 className="font-medium text-2xl pb-4">Create a paste</h4>
