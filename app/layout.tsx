@@ -7,8 +7,15 @@ import type { Metadata } from 'next'
 config.autoAddCss = false
 
 export const metadata: Metadata = {
-  title:'KewlPaste',
-  description: 'A selfhosted pastebin service',
+  title: 'KewlPaste',
+  description: 'A self-hosted pastebin service',
+  twitter: {
+    site: '@1337kid_h4x0r',
+    creator: '@1337kid_h4x0r',
+    title: 'KewlPaste',
+    description: 'A self-hosted pastebin service',
+    card: 'summary',
+  },
 }
 
 export default function RootLayout({
