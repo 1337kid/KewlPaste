@@ -7,26 +7,9 @@ import type { Metadata } from 'next'
 config.autoAddCss = false
 
 export const metadata: Metadata = {
-  title: 'KewlPaste',
-  description: 'A self-hosted pastebin service',
-  site_name: 'KewlPaste',
-  url: 'https://kewlpaste.vercel.app/',
-  type: 'website',
-  locale: '---  ---',
-  imageWidth: 600,
-  imageHeight: 600,
-  name: 'KewlPaste',
-  url: 'https://kewlpaste.vercel.app/',
-  thumbnailUrl: '',
-  twitter: {
-    site: '@--- YOUR TWITTER USERNAME ---',
-    creator: '@--- YOUR TWITTER USERNAME ---',
-    url: 'https://kewlpaste.vercel.app/',
-    title: 'KewlPaste',
-    description: 'A self-hosted pastebin service',
-    card: 'summary',
-  },
-};
+  title:'KewlPaste',
+  description: 'A selfhosted pastebin service',
+}
 
 export default function RootLayout({
   children,
