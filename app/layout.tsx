@@ -9,8 +9,8 @@ config.autoAddCss = false
 export const metadata: Metadata = {
   title: 'KewlPaste',
   description: 'A self-hosted pastebin service',
+  applicationName: "KewlPaste",
   twitter: {
-    site: '@1337kid_h4x0r',
     creator: '@1337kid_h4x0r',
     title: 'KewlPaste',
     description: 'A self-hosted pastebin service',
